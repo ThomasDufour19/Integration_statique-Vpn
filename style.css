@@ -1,1 +1,39 @@
-
+body
+{
+    margin: 0px;
+}
+header 
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #111111;
+    padding: 20px 20px;
+}
+.btn, .btn:visited
+{
+    display: flex;
+    text-align: right;
+    color: white;
+    text-transform: uppercase;
+    background-color:  #2F2F2F;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 34px;
+    padding-right: 34px;
+    border-radius: 6px;
+    transition: 0.4s;
+}
+.btn:hover
+{
+    background-color: white;
+    color: black;
+}
+.surf
+{
+    color: white;
+    text-align: left;
+}
+.vpn
+{
+    color: #0FA2DB;
+}
